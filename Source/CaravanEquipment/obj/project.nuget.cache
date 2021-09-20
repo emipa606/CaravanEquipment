@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OGzQ/QA8jrSpwdwsFY5XQ/IZL6PNSqwO0+E1f8MEmhuYICDeNi+zZFtdfXJWLiwCbdbvPVBdjVu7WKFcuEBH/w==",
+  "success": true,
+  "projectFilePath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CaravanEquipment\\Source\\CaravanEquipment\\CaravanEquipment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\inade\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3117\\krafs.rimworld.ref.1.3.3117.nupkg.sha512"
+  ],
+  "logs": []
+}

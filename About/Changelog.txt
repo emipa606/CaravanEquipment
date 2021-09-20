@@ -1,0 +1,4 @@
+# Changelog for CaravanEquipment
+
+1.0.1.0 - Fixed the settings menu
+

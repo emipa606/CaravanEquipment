@@ -1,0 +1,4 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\1.3\Assemblies\CaravanEquipment.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEquipment\obj\Release\CaravanEquipment.GeneratedMSBuildEditorConfig.editorconfig
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEquipment\obj\Release\CaravanEquipment.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEquipment\obj\Release\CaravanEquipment.dll

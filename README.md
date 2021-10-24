@@ -6,6 +6,8 @@ Update of Squirting Elephants mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2009163632
 with permission
 
+- Fixed the mod-settings
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
@@ -64,11 +66,8 @@ I had some cases where my bigger caravans got hit by stuff like the plague and I
 
 
 
-- The mod settings menu is currently broken in version 1.3. Just don't open it.
+- [strike]The mod settings menu is currently broken in version 1.3. Just don't open it.[/strike]
 
-
-
-https://ko-fi.com/elephant]![Image](https://i.imgur.com/UEq4O06.png)
 
 
 ![Image](https://i.imgur.com/PwoNOj4.png)

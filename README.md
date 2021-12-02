@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2009163632
 with permission
 
 - Fixed the mod-settings
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

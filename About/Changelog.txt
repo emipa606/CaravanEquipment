@@ -1,5 +1,8 @@
 # Changelog for CaravanEquipment
 
+1.0.3.0 - Fixed the scrollview, thanks Taranchuk for the simple solution!
+
+
 1.0.2.0 - Added support for Simple FX: Smoke
 
 

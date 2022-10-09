@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using RimWorld;
 using UnityEngine;
@@ -37,12 +38,9 @@ public static class Utils
                 $@"C:\Users\{Environment.UserName}\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Config";
         }
 
-        if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-        {
-            return "~/Library/Application Support/RimWorld/Config";
-        }
-
-        return "~/.config/unity3d/Ludeon Studios/RimWorld by Ludeon Studios/Config"; // Unix
+        return RuntimeInformation.IsOSPlatform(OSPlatform.OSX)
+            ? "~/Library/Application Support/RimWorld/Config"
+            : "~/.config/unity3d/Ludeon Studios/RimWorld by Ludeon Studios/Config"; // Unix
     }
 
     public static void OpenModSettingsFolder()
@@ -184,11 +182,15 @@ public static class Utils
     public static void EditPowerGenerationValue(string thingDefName, int newPowerGenerationAmount)
     {
         var thingDef = GetDefByDefName<ThingDef>(thingDefName);
-        if (thingDef != null)
+        if (thingDef == null)
         {
-            thingDef.comps.OfType<CompProperties_Power>().First().basePowerConsumption =
-                -Math.Abs(newPowerGenerationAmount);
+            return;
         }
+
+        var powerField = typeof(CompProperties_Power).GetField("basePowerConsumption",
+            BindingFlags.NonPublic | BindingFlags.Instance);
+        var powerComp = thingDef.comps.OfType<CompProperties_Power>().First();
+        powerField?.SetValue(powerComp, Math.Abs(newPowerGenerationAmount));
     }
 
     public static void SetWorkAmount(string recipeDefName, int newWorkAmount)
@@ -203,10 +205,7 @@ public static class Utils
     public static void SetYieldAmount(string recipeDefName, int newYieldAmount)
     {
         var def = GetDefByDefName<RecipeDef>(recipeDefName);
-        if (def != null)
-        {
-            def.products.ForEach(p => p.count = newYieldAmount);
-        }
+        def?.products.ForEach(p => p.count = newYieldAmount);
     }
 
     public static void SetResearchBaseCost(string researchDefName, int newResearchCost)
@@ -240,12 +239,8 @@ public static class Utils
     public static void SetThingSteelCost(string thingDefName, int newSteelCost)
     {
         var def = GetDefByDefName<ThingDef>(thingDefName);
-        if (def == null)
-        {
-            return;
-        }
 
-        var costDef = def.costList.FirstOrDefault(c => c.thingDef == ThingDefOf.Steel);
+        var costDef = def?.costList.FirstOrDefault(c => c.thingDef == ThingDefOf.Steel);
         if (costDef != null)
         {
             costDef.count = newSteelCost;
@@ -255,12 +250,8 @@ public static class Utils
     public static void SetThingComponentCost(string thingDefName, int newComponentCost)
     {
         var def = GetDefByDefName<ThingDef>(thingDefName);
-        if (def == null)
-        {
-            return;
-        }
 
-        var costDef = def.costList.FirstOrDefault(c => c.thingDef == ThingDefOf.ComponentIndustrial);
+        var costDef = def?.costList.FirstOrDefault(c => c.thingDef == ThingDefOf.ComponentIndustrial);
         if (costDef != null)
         {
             costDef.count = newComponentCost;
@@ -270,12 +261,8 @@ public static class Utils
     public static void SetThingComponentSpacerCost(string thingDefName, int newComponentSpacerCost)
     {
         var def = GetDefByDefName<ThingDef>(thingDefName);
-        if (def == null)
-        {
-            return;
-        }
 
-        var costDef = def.costList.FirstOrDefault(c => c.thingDef == ThingDefOf.ComponentSpacer);
+        var costDef = def?.costList.FirstOrDefault(c => c.thingDef == ThingDefOf.ComponentSpacer);
         if (costDef != null)
         {
             costDef.count = newComponentSpacerCost;

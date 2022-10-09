@@ -70,9 +70,9 @@ public class TableData
     /// <summary>
     ///     Column Datas.
     /// </summary>
-    public List<TableColumn> Columns { get; set; } = new List<TableColumn>();
+    public List<TableColumn> Columns { get; } = new List<TableColumn>();
 
-    public List<TableRow> Rows { get; set; } = new List<TableRow>();
+    public List<TableRow> Rows { get; } = new List<TableRow>();
 
     public Rect TableRect { get; private set; } = Rect.zero;
 

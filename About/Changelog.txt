@@ -1,5 +1,8 @@
 # Changelog for CaravanEquipment
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.0.3.0 - Fixed the scrollview, thanks Taranchuk for the simple solution!
 
 

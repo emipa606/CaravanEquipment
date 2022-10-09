@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m23swO37RrYBquz88Xa2BhGAqKLLXk5aNZRUoDnFjl/NbVMeSq9oLNZ1PGtiThipihIxS6fylTtaFryE14qrDA==",
+  "dgSpecHash": "Z33hcsjAMXNLWZ4kx9gz51ruDUj0bHT2aW3LzPP10g+AlRGuSqtg2O8owlN6Nln/UzV7OoX2Esn47CM0eP3T6A==",
   "success": true,
   "projectFilePath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CaravanEquipment\\Source\\CaravanEquipment\\CaravanEquipment.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\inade\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3200\\krafs.rimworld.ref.1.3.3200.nupkg.sha512"
+    "C:\\Users\\inade\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3510-beta\\krafs.rimworld.ref.1.4.3510-beta.nupkg.sha512"
   ],
   "logs": []
 }

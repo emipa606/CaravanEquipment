@@ -11,9 +11,10 @@
 using System;
 using System.Reflection;
 
+[assembly: System.Runtime.CompilerServices.IgnoresAccessChecksToAttribute("Assembly-CSharp")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaravanEquipment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.2")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaravanEquipment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaravanEquipment")]

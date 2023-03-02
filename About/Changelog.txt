@@ -1,5 +1,9 @@
 # Changelog for CaravanEquipment
 
+1.4.2 - Fixed the inverted power-value on the woodpowered generator.
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 

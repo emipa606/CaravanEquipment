@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Runtime.InteropServices;
 using RimWorld;
 using UnityEngine;
@@ -187,10 +186,8 @@ public static class Utils
             return;
         }
 
-        var powerField = typeof(CompProperties_Power).GetField("basePowerConsumption",
-            BindingFlags.NonPublic | BindingFlags.Instance);
         var powerComp = thingDef.comps.OfType<CompProperties_Power>().First();
-        powerField?.SetValue(powerComp, Math.Abs(newPowerGenerationAmount));
+        powerComp.basePowerConsumption = -newPowerGenerationAmount;
     }
 
     public static void SetWorkAmount(string recipeDefName, int newWorkAmount)

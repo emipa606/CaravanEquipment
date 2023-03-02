@@ -85,3 +85,4 @@ I had some cases where my bigger caravans got hit by stuff like the plague and I
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2607286876]Last updated 2023-03-02

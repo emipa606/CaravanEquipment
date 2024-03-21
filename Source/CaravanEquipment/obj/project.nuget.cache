@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qWf6Neb2G5P8zBMBHysWRh6BGQntTz/CHFRlSWAPyNHtDo91Qo/CGvUz+xmUr1fY4Z0+o8ICBGqUaARslFgj4A==",
+  "dgSpecHash": "7dDSoJKBvPnW3q4zjznQXExrRtqlHM3LHDROHxZJR5D2A9OhOelJQz/TZZ7nwoyYe+lX4GUwN8LrcG3/xcoAng==",
   "success": true,
   "projectFilePath": "E:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\CaravanEquipment\\Source\\CaravanEquipment\\CaravanEquipment.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\inade\\.nuget\\packages\\krafs.publicizer\\2.2.1\\krafs.publicizer.2.2.1.nupkg.sha512",
-    "C:\\Users\\inade\\.nuget\\packages\\krafs.rimworld.ref\\1.4.3641\\krafs.rimworld.ref.1.4.3641.nupkg.sha512"
+    "C:\\Users\\inade\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4041-beta\\krafs.rimworld.ref.1.5.4041-beta.nupkg.sha512",
+    "C:\\Users\\inade\\.nuget\\packages\\lib.harmony\\2.3.1.1\\lib.harmony.2.3.1.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5,15 +5,8 @@ namespace SquirtingElephant.CaravanEquipment;
 
 public class SettingsData : ModSettings
 {
-    public float PHospitalBed_BedRestEff = 1;
-    public float PHospitalBed_ImmunityGainSpeedFactor = 1.11f;
-    public float PHospitalBed_MedicalTendQualityOffset = 0.1f;
-    public float PHospitalBed_SurgerySuccessChanceFactor = 1.1f;
-
-    public int PPowerGenPowerGeneration = 725;
-
-    public List<CaravanEquipmentSetting> Standard = new List<CaravanEquipmentSetting>
-    {
+    public readonly List<CaravanEquipmentSetting> Standard =
+    [
         new CaravanEquipmentSetting("PortableHospitalBed", 12, 4f),
         new CaravanEquipmentSetting("PortableTable1x2c", 12, 1f),
         new CaravanEquipmentSetting("PortableDiningChair", 3, 0.1f),
@@ -21,7 +14,14 @@ public class SettingsData : ModSettings
         new CaravanEquipmentSetting("CELA_Turret_MiniTurret", 8, 15f),
         new CaravanEquipmentSetting("PortableHeater", 7, 0.5f),
         new CaravanEquipmentSetting("PortableCooler", 7, 0.5f)
-    };
+    ];
+
+    public float PHospitalBed_BedRestEff = 1;
+    public float PHospitalBed_ImmunityGainSpeedFactor = 1.11f;
+    public float PHospitalBed_MedicalTendQualityOffset = 0.1f;
+    public float PHospitalBed_SurgerySuccessChanceFactor = 1.1f;
+
+    public int PPowerGenPowerGeneration = 725;
 
     public override void ExposeData()
     {

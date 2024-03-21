@@ -10,7 +10,7 @@ public class SE_Settings : Mod
     public static SettingsData Settings;
 
     public static readonly TableData Table = new TableData(new Vector2(10f, 0f), new Vector2(10f, 10f),
-        new[] { 32f, 225f, 110f, 110f }, new[] { 32f }, 4, 8);
+        [32f, 225f, 110f, 110f], [32f], 4, 8);
 
     private readonly Rect ViewRect = new Rect(0f, 0f, 100.0f, 200.0f);
 

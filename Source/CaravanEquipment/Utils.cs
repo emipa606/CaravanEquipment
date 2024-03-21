@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
+using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -187,7 +188,9 @@ public static class Utils
         }
 
         var powerComp = thingDef.comps.OfType<CompProperties_Power>().First();
-        powerComp.basePowerConsumption = -newPowerGenerationAmount;
+        AccessTools.Field(typeof(CompProperties_Power), "basePowerConsumption")
+            .SetValue(powerComp, -newPowerGenerationAmount);
+        //powerComp.basePowerConsumption = -newPowerGenerationAmount;
     }
 
     public static void SetWorkAmount(string recipeDefName, int newWorkAmount)

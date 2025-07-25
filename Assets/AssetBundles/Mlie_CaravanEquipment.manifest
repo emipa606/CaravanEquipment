@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 631081406
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8412e8211b4e3c035f63eb55e647ac48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8412e8211b4e3c035f63eb55e647ac48
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.CaravanEquipment/Textures/TurretPortable/PortableTurretMini_Top.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/BenchLightAlloys/LightAlloysBench_south.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/LightAlloy1/LightAlloy_a.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/LightAlloy1/LightAlloy_b.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/TablePortable/PortableTable_north.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/TablePortable/PortableTable_MenuIcon.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/BenchLightAlloys/LightAlloysBench_MenuIcon.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/BenchLightAlloys/LightAlloysBench_east.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/HospitalBedPortable/PortableHospitalBed_south.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/HospitalBedPortable/PortableHospitalBed_east.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/DiningChairPortable/PortableDiningChair_east.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/HospitalBedPortable/PortableHospitalBed_north.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/DiningChairPortable/PortableDiningChair_north.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/SmallWoodFiredGenerator/LightAlloyWoodFiredGenerator.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/LightAlloyUnfinished/LightAlloyUnfinished.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/LightAlloy1/LightAlloy_c.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/DiningChairPortable/PortableDiningChair_south.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/HospitalBedPortable/PortableHospitalBed_southm.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/HospitalBedPortable/PortableHospitalBed_eastm.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/HospitalBedPortable/PortableHospitalBed_northm.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/TurretPortable/PortableTurretMini_MenuIcon.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/BenchLightAlloys/LightAlloysBench_north.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/TablePortable/PortableTable_east.png
+- Assets/Data/Mlie.CaravanEquipment/Textures/TablePortable/PortableTable_south.png
+Dependencies: []

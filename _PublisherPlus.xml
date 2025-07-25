@@ -5,6 +5,7 @@
     <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\.git</exclude>
     <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\.gitmodules</exclude>
     <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\.gitattributes</exclude>
+    <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\.github</exclude>
     <exclude>E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source</exclude>
   </Excluded>
 </Configuration>

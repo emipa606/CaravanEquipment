@@ -30,7 +30,7 @@ public static class Utils
     /// <summary>
     ///     Note that this method assumes that windows is installed on the C-drive.
     /// </summary>
-    public static string GetModSettingsFolderPath()
+    private static string GetModSettingsFolderPath()
     {
         if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
         {
@@ -95,13 +95,13 @@ public static class Utils
     {
         if (Current.Game == null || Current.Game.CurrentMap == null)
         {
-            return Enumerable.Empty<Building>();
+            return [];
         }
 
         return Current.Game.CurrentMap.listerBuildings.allBuildingsColonist.Where(b => b.def.defName == defName);
     }
 
-    public static void AddRecipeUnique(ThingDef thingDef, RecipeDef recipe)
+    private static void AddRecipeUnique(ThingDef thingDef, RecipeDef recipe)
     {
         if (thingDef.recipes.Any(r => r.defName == recipe.defName))
         {
@@ -274,7 +274,7 @@ public static class Utils
         Log.Warning(string.Format(DEF_NOT_FOUND_FORMAT, defType, defName));
     }
 
-    public static void LogDefNotFoundError(string defName, string defType = "Def")
+    private static void LogDefNotFoundError(string defName, string defType = "Def")
     {
         Log.Error(string.Format(DEF_NOT_FOUND_FORMAT, defType, defName));
     }

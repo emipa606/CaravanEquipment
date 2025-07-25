@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: caravan equipment -->
+  <CaravanEquipment.label>caravan equipment</CaravanEquipment.label>
+  <!-- EN: Create better caravan equipment. -->
+  <CaravanEquipment.description>Create better caravan equipment.</CaravanEquipment.description>
+  <!-- EN: light alloys -->
+  <LightAlloys.label>light alloys</LightAlloys.label>
+  <!-- EN: Create lighter metals from steel. -->
+  <LightAlloys.description>Create lighter metals from steel.</LightAlloys.description>
+</LanguageData>

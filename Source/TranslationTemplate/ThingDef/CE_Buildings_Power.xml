@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: light alloy wood-fired generator -->
+  <LA_WoodFiredGenerator.label>light alloy wood-fired generator</LA_WoodFiredGenerator.label>
+  <!-- EN: Produces power by consuming wood. Must be periodically loaded with wood fuel by hand. Comes with a built-in battery and is much lighter than the regular one. Works outside and doesn't break down. -->
+  <LA_WoodFiredGenerator.description>Produces power by consuming wood. Must be periodically loaded with wood fuel by hand. Comes with a built-in battery and is much lighter than the regular one. Works outside and doesn't break down.</LA_WoodFiredGenerator.description>
+</LanguageData>

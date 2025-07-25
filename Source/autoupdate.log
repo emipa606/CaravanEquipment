@@ -1,10 +1,8 @@
-2024-03-21 19:30:32
-Starting autoupdate to version 1.5
+2025-07-25 22:30:36
+Starting autoupdate to version 1.6
+Checking the need for asset bundle
 Updating folder-structure
-System.Xml.XmlElement
-True
-True
-Updating VSCode if needed
-True
+Updating C#-project if needed
+Verifying asset bundle
 Testing mod
 Mod passed autotest, publishing

@@ -7,13 +7,13 @@ public class SettingsData : ModSettings
 {
     public readonly List<CaravanEquipmentSetting> Standard =
     [
-        new CaravanEquipmentSetting("PortableHospitalBed", 12, 4f),
-        new CaravanEquipmentSetting("PortableTable1x2c", 12, 1f),
-        new CaravanEquipmentSetting("PortableDiningChair", 3, 0.1f),
-        new CaravanEquipmentSetting("LA_WoodFiredGenerator", 5, 3f),
-        new CaravanEquipmentSetting("CELA_Turret_MiniTurret", 8, 15f),
-        new CaravanEquipmentSetting("PortableHeater", 7, 0.5f),
-        new CaravanEquipmentSetting("PortableCooler", 7, 0.5f)
+        new("PortableHospitalBed", 12, 4f),
+        new("PortableTable1x2c", 12, 1f),
+        new("PortableDiningChair", 3, 0.1f),
+        new("LA_WoodFiredGenerator", 5, 3f),
+        new("CELA_Turret_MiniTurret", 8, 15f),
+        new("PortableHeater", 7, 0.5f),
+        new("PortableCooler", 7, 0.5f)
     ];
 
     public float PHospitalBed_BedRestEff = 1;

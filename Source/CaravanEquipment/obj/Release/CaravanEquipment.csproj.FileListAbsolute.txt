@@ -4,6 +4,5 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEq
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEquipment\obj\Release\CaravanEquipment.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\1.4\Assemblies\CaravanEquipment.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEquipment\obj\Release\CaravanEquipment.csproj.AssemblyReference.cache
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEquipment\obj\Release\CaravanEquipment.AssemblyInfoInputs.cache
-E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\Source\CaravanEquipment\obj\Release\CaravanEquipment.AssemblyInfo.cs
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\1.5\Assemblies\CaravanEquipment.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\CaravanEquipment\1.6\Assemblies\CaravanEquipment.dll

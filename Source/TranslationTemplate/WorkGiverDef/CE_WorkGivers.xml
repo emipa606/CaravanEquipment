@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make things at the light alloys workbench -->
+  <DoBillsLightAlloysBench.label>make things at the light alloys workbench</DoBillsLightAlloysBench.label>
+  <!-- EN: working at -->
+  <DoBillsLightAlloysBench.gerund>working at</DoBillsLightAlloysBench.gerund>
+  <!-- EN: work -->
+  <DoBillsLightAlloysBench.verb>work</DoBillsLightAlloysBench.verb>
+</LanguageData>

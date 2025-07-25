@@ -22,10 +22,7 @@ public class CaravanEquipmentSetting : IExposable
     {
         get
         {
-            if (_ThisThingDef == null)
-            {
-                _ThisThingDef = DefDatabase<ThingDef>.GetNamed(DefName);
-            }
+            _ThisThingDef ??= DefDatabase<ThingDef>.GetNamed(DefName);
 
             return _ThisThingDef;
         }

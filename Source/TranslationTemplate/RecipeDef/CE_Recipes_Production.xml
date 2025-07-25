@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make light alloys -->
+  <Make_LightAlloys.label>make light alloys</Make_LightAlloys.label>
+  <!-- EN: Make a light alloy. -->
+  <Make_LightAlloys.description>Make a light alloy.</Make_LightAlloys.description>
+  <!-- EN: Making light alloys. -->
+  <Make_LightAlloys.jobString>Making light alloys.</Make_LightAlloys.jobString>
+  <!-- EN: make light alloys bulk -->
+  <Make_LightAlloysBulk.label>make light alloys bulk</Make_LightAlloysBulk.label>
+  <!-- EN: Make 10 light alloys. -->
+  <Make_LightAlloysBulk.description>Make 10 light alloys.</Make_LightAlloysBulk.description>
+  <!-- EN: Making 10 light alloys. -->
+  <Make_LightAlloysBulk.jobString>Making 10 light alloys.</Make_LightAlloysBulk.jobString>
+</LanguageData>
